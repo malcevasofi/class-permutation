@@ -67,11 +67,11 @@ void Permutation::Step()
 {
 	// if values of array is null then there is no new permutations
 	if (p[0] == 0)
-		this->Print();
+		Print();
 	// if N == 1 then there is no new permutation too
 	else if (N - 1 == 0)
-		this->SetNullValues();
+		SetNullValues();
 	// else create new permutation
 	else
-		this->Create();
+		Create();
 }	
